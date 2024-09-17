@@ -1,9 +1,9 @@
 # PERSONAL FORK
 forked on 09/17/2024
-Ive fixed some icon defintions that are out dated. There continue to be some icons that have bad data.
+Ive fixed some icon definitions that are out dated. There continue to be some icons that have bad data.
 
 P.S. It does effect your colors
-# Origional Readme
+# Original Readme
 
 An icon theme (do nothing about colors) for [xplr](https://github.com/sayanarijit/xplr).
 
