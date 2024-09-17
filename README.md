@@ -1,3 +1,10 @@
+# PERSONAL FORK
+forked on 09/17/2024
+Ive fixed some icon defintions that are out dated. There continue to be some icons that have bad data.
+
+P.S. It does effect your colors
+# Origional Readme
+
 An icon theme (do nothing about colors) for [xplr](https://github.com/sayanarijit/xplr).
 
 Based on [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) with some input from [nnn](https://github.com/jarun/nnn). Text formats are well covered. Binary formats still needs some attention.
