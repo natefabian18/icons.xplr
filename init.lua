@@ -36,7 +36,7 @@ function setup()
   -- File = '',
   -- Folder = '',
   xplr.config.node_types.directory.meta.icon = blue ""
-  xplr.config.node_types.file.meta.icon = cyan ""
+  xplr.config.node_types.file.meta.icon = cyan ""
   xplr.config.node_types.symlink.meta.icon = magenta ""
 
   -- ["jpeg"] = {
@@ -58,32 +58,32 @@ function setup()
   --
   xplr.config.node_types.mime_essence = {
     audio = {
-      ["*"] = { meta = { icon = yellow "" } },
+      ["*"] = { meta = { icon = yellow "󰎇" } },
     },
     video = {
-      ["*"] = { meta = { icon = "ﳜ" } },
+      ["*"] = { meta = { icon = "󰎁" } },
     },
     image = {
       ["*"] = { meta = { icon = "" } },
     },
     application = {
       -- application/zip
-      zip = { meta = { icon = "" } },
+      zip = { meta = { icon = "" } },
     },
     text = {
-      ["*"] = { meta = { icon = "" } },
+      ["*"] = { meta = { icon = "󰈙" } },
     },
   }
 
   -- nnn https://github.com/jarun/nnn/blob/master/src/icons-nerdfont.h
-  xplr.config.node_types.special["Desktop"] = { meta = { icon = "ﲾ" } }
-  xplr.config.node_types.special["Documents"] = { meta = { icon = "" } }
-  xplr.config.node_types.special["Downloads"] = { meta = { icon = "" } }
-  xplr.config.node_types.special["Music"] = { meta = { icon = "" } }
-  xplr.config.node_types.special["Pictures"] = { meta = { icon = "" } }
-  -- xplr.config.node_types.special["Public"] = { meta = { icon = "" } }
-  xplr.config.node_types.special["Templates"] = { meta = { icon = "陼" } }
-  xplr.config.node_types.special["Videos"] = { meta = { icon = "" } }
+  xplr.config.node_types.special["Desktop"] = { meta = { icon = blue "" } }
+  --xplr.config.node_types.special["Documents"] = { meta = { icon = "󰈙" } }
+  xplr.config.node_types.special["Downloads"] = { meta = { icon = blue "󰉍" } }
+  xplr.config.node_types.special["Music"] = { meta = { icon = blue "󱍙" } }
+  xplr.config.node_types.special["Pictures"] = { meta = { icon = blue "" } }
+  xplr.config.node_types.special["Public"] = { meta = { icon = blue "" } }
+  xplr.config.node_types.special["Templates"] = { meta = { icon = blue "" } }
+  xplr.config.node_types.special["Videos"] = { meta = { icon = blue "" } }
 
   -- https://github.com/kyazdani42/nvim-web-devicons/blob/master/README.md
   xplr.config.node_types.special["Gemfile"] = { meta = { icon = "" } }
@@ -127,19 +127,19 @@ function setup()
   xplr.config.node_types.extension.cbr = { meta = { icon = "" } }
   xplr.config.node_types.extension.cbz = { meta = { icon = "" } }
   xplr.config.node_types.extension.cpio = { meta = { icon = "" } }
-  xplr.config.node_types.extension.gz = { meta = { icon = "" } }
-  xplr.config.node_types.extension.gzip = { meta = { icon = "" } }
+  xplr.config.node_types.extension.gz = { meta = { icon = "" } }
+  xplr.config.node_types.extension.gzip = { meta = { icon = "" } }
   xplr.config.node_types.extension.lha = { meta = { icon = "" } }
   xplr.config.node_types.extension.lzh = { meta = { icon = "" } }
   xplr.config.node_types.extension.lzma = { meta = { icon = "" } }
   xplr.config.node_types.extension.rar = { meta = { icon = "" } }
   xplr.config.node_types.extension.rpm = { meta = { icon = "" } }
-  xplr.config.node_types.extension.tar = { meta = { icon = "" } }
-  xplr.config.node_types.extension.tgz = { meta = { icon = "" } }
-  xplr.config.node_types.extension.txz = { meta = { icon = "" } }
+  xplr.config.node_types.extension.tar = { meta = { icon = "" } }
+  xplr.config.node_types.extension.tgz = { meta = { icon = "" } }
+  xplr.config.node_types.extension.txz = { meta = { icon = "" } }
   xplr.config.node_types.extension.xbps = { meta = { icon = "" } }
   xplr.config.node_types.extension.xz = { meta = { icon = "" } }
-  xplr.config.node_types.extension.zip = { meta = { icon = "" } }
+  xplr.config.node_types.extension.zip = { meta = { icon = "" } }
 
   --- devicons
   xplr.config.node_types.extension.COPYING = { meta = { icon = "" } }
@@ -171,7 +171,7 @@ function setup()
   xplr.config.node_types.extension.db = { meta = { icon = "" } }
   xplr.config.node_types.extension.desktop = { meta = { icon = "" } }
   xplr.config.node_types.extension.diff = { meta = { icon = "" } }
-  xplr.config.node_types.extension.doc = { meta = { icon = "" } }
+  xplr.config.node_types.extension.doc = { meta = { icon = "" } }
   xplr.config.node_types.extension.dockerfile = { meta = { icon = "" } }
   xplr.config.node_types.extension.dropbox = { meta = { icon = "" } }
   xplr.config.node_types.extension.dump = { meta = { icon = "" } }
@@ -291,6 +291,7 @@ function setup()
   xplr.config.node_types.extension.zsh = { meta = { icon = "" } }
   xplr.config.node_types.extension["c++"] = { meta = { icon = "" } }
   xplr.config.node_types.extension["f#"] = { meta = { icon = "" } }
+  xplr.config.node_types.extension["docx"] = { meta = { icon = "󰈙" } }
 end
 
 return { setup = setup }
